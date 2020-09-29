@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "https://vthub.github.io/webauthn-debugger/static/css/main.5f361e03.chunk.css",
-    "main.js": "https://vthub.github.io/webauthn-debugger/static/js/main.b4329cc2.chunk.js",
-    "main.js.map": "https://vthub.github.io/webauthn-debugger/static/js/main.b4329cc2.chunk.js.map",
+    "main.js": "https://vthub.github.io/webauthn-debugger/static/js/main.eaeda811.chunk.js",
+    "main.js.map": "https://vthub.github.io/webauthn-debugger/static/js/main.eaeda811.chunk.js.map",
     "runtime-main.js": "https://vthub.github.io/webauthn-debugger/static/js/runtime-main.b58887f7.js",
     "runtime-main.js.map": "https://vthub.github.io/webauthn-debugger/static/js/runtime-main.b58887f7.js.map",
-    "static/js/2.f825dfee.chunk.js": "https://vthub.github.io/webauthn-debugger/static/js/2.f825dfee.chunk.js",
-    "static/js/2.f825dfee.chunk.js.map": "https://vthub.github.io/webauthn-debugger/static/js/2.f825dfee.chunk.js.map",
+    "static/js/2.1578139d.chunk.js": "https://vthub.github.io/webauthn-debugger/static/js/2.1578139d.chunk.js",
+    "static/js/2.1578139d.chunk.js.map": "https://vthub.github.io/webauthn-debugger/static/js/2.1578139d.chunk.js.map",
     "index.html": "https://vthub.github.io/webauthn-debugger/index.html",
-    "precache-manifest.cc987758d0a641140902f1d9c6f2fb60.js": "https://vthub.github.io/webauthn-debugger/precache-manifest.cc987758d0a641140902f1d9c6f2fb60.js",
+    "precache-manifest.1cf8680c0a435f428594cfe7e772cf58.js": "https://vthub.github.io/webauthn-debugger/precache-manifest.1cf8680c0a435f428594cfe7e772cf58.js",
     "service-worker.js": "https://vthub.github.io/webauthn-debugger/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "https://vthub.github.io/webauthn-debugger/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.f825dfee.chunk.js.LICENSE.txt": "https://vthub.github.io/webauthn-debugger/static/js/2.f825dfee.chunk.js.LICENSE.txt"
+    "static/js/2.1578139d.chunk.js.LICENSE.txt": "https://vthub.github.io/webauthn-debugger/static/js/2.1578139d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b58887f7.js",
-    "static/js/2.f825dfee.chunk.js",
+    "static/js/2.1578139d.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.b4329cc2.chunk.js"
+    "static/js/main.eaeda811.chunk.js"
   ]
 }
