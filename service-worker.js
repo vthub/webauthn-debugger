@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://vthub.github.io/webauthn-debugger/precache-manifest.1cf8680c0a435f428594cfe7e772cf58.js"
+  "https://vthub.github.io/webauthn-debugger/precache-manifest.0d42fb6d77f1cbacd57c6c657d6ca7fb.js"
 );
 
 self.addEventListener('message', (event) => {
