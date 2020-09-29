@@ -1,6 +1,5 @@
 import React from 'react';
 import Form from "react-bootstrap/cjs/Form";
-import Badge from "react-bootstrap/cjs/Badge";
 import {Parser, PARSER_TYPE, EXAMPLES} from "./Parser";
 
 class Debug extends React.Component {
@@ -77,10 +76,7 @@ class Debug extends React.Component {
             <div>
                 <div className="row">
                     <div className="col-md-6">
-                        <h4 className="mb-3">Input
-                            <Badge variant="secondary" onClick={() => this.setState({value: JSON.stringify(this.demoInput, null, ' ')})}>Test</Badge>
-                            <Badge variant="secondary" onClick={() => this.setState({value: "Invalid input"})}>Test</Badge>
-                        </h4>
+                        <h4 className="mb-3">Input</h4>
                         <Form>
 
                             <div className="row">
@@ -107,10 +103,9 @@ class Debug extends React.Component {
                     </div>
                     <div className="col-md-6 mb-4">
                         <h4 className="d-flex justify-content-between align-items-center mb-3">
-                            <span>Values</span>
+                            <span>Output</span>
                         </h4>
                         <ul className="list-group mb-3">
-
                             {this.state.isEmpty && <li className="list-group-item d-flex justify-content-between lh-condensed">
                                 <div>
                                     <h6 className="my-0">No input available</h6>
@@ -129,38 +124,13 @@ class Debug extends React.Component {
                                     </div>
                                 </li>
                             })}
-                            {/*<li className="list-group-item d-flex justify-content-between lh-condensed">*/}
-                            {/*    <div>*/}
-                            {/*        <h6 className="my-0">Third item</h6>*/}
-                            {/*        <small className="text-muted">Brief description</small>*/}
-                            {/*    </div>*/}
-                            {/*    <span className="text-muted">$5</span>*/}
-                            {/*</li>*/}
-                            {/*<li className="list-group-item d-flex justify-content-between bg-light">*/}
-                            {/*    <div className="text-success">*/}
-                            {/*        <h6 className="my-0">Promo code</h6>*/}
-                            {/*        <small>EXAMPLECODE</small>*/}
-                            {/*    </div>*/}
-                            {/*    <span className="text-success">-$5</span>*/}
-                            {/*</li>*/}
-                            {/*<li className="list-group-item d-flex justify-content-between">*/}
-                            {/*    <span>Total (USD)</span>*/}
-                            {/*    <strong>$20</strong>*/}
-                            {/*</li>*/}
                         </ul>
 
-                        {/*<form className="card p-2">*/}
-                        {/*    <div className="input-group">*/}
-                        {/*        <input type="text" className="form-control" placeholder="Promo code"/>*/}
-                        {/*        <div className="input-group-append">*/}
                         {!this.state.isEmpty && this.state.isValid &&
                         <button type="submit" className="btn btn-secondary">Copy as JSON</button>}
 
                         {!this.state.isEmpty &&
                         <button type="submit" className="btn btn-warning ml-3" onClick={() => this.setState({value: ""})}>Clean</button>}
-                        {/*</div>*/}
-                        {/*</div>*/}
-                        {/*</form>*/}
                     </div>
                 </div>
                 <div className="row">

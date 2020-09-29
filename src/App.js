@@ -12,6 +12,16 @@ function App() {
           <p className="lead">Webauthn (a.k.a. FIDO2) is a protocol to enable authentication using private-public key pairs.</p>
       </div>
       <Debug/>
+      <hr/>
+        <footer className="my-5 pt-5 text-muted text-center text-small">
+            <p className="mb-1">Webauthn Debugger</p>
+            <ul className="list-inline">
+                <li className="list-inline-item"><a href="https://github.com/vthub/webauthn-debugger">GitHub</a></li>
+                <li className="list-inline-item"><a href="https://github.com/vthub/webauthn-debugger/blob/master/LICENSE">License</a></li>
+                <li className="list-inline-item"><a href="https://github.com/vthub/webauthn-debugger/issues">Support</a></li>
+            </ul>
+        </footer>
+
     </Container>
   );
 }
