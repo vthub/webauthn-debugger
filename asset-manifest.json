@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.5f361e03.chunk.css",
-    "main.js": "/static/js/main.909b6f7e.chunk.js",
-    "main.js.map": "/static/js/main.909b6f7e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.8b5c354c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.8b5c354c.js.map",
-    "static/js/2.e4821a0d.chunk.js": "/static/js/2.e4821a0d.chunk.js",
-    "static/js/2.e4821a0d.chunk.js.map": "/static/js/2.e4821a0d.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.109e17ee6f857a2752e2f42ae2588aeb.js": "/precache-manifest.109e17ee6f857a2752e2f42ae2588aeb.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.e4821a0d.chunk.js.LICENSE.txt": "/static/js/2.e4821a0d.chunk.js.LICENSE.txt"
+    "main.css": "https://vthub.github.io/webauthn-debugger/static/css/main.5f361e03.chunk.css",
+    "main.js": "https://vthub.github.io/webauthn-debugger/static/js/main.b4329cc2.chunk.js",
+    "main.js.map": "https://vthub.github.io/webauthn-debugger/static/js/main.b4329cc2.chunk.js.map",
+    "runtime-main.js": "https://vthub.github.io/webauthn-debugger/static/js/runtime-main.b58887f7.js",
+    "runtime-main.js.map": "https://vthub.github.io/webauthn-debugger/static/js/runtime-main.b58887f7.js.map",
+    "static/js/2.f825dfee.chunk.js": "https://vthub.github.io/webauthn-debugger/static/js/2.f825dfee.chunk.js",
+    "static/js/2.f825dfee.chunk.js.map": "https://vthub.github.io/webauthn-debugger/static/js/2.f825dfee.chunk.js.map",
+    "index.html": "https://vthub.github.io/webauthn-debugger/index.html",
+    "precache-manifest.cc987758d0a641140902f1d9c6f2fb60.js": "https://vthub.github.io/webauthn-debugger/precache-manifest.cc987758d0a641140902f1d9c6f2fb60.js",
+    "service-worker.js": "https://vthub.github.io/webauthn-debugger/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "https://vthub.github.io/webauthn-debugger/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.f825dfee.chunk.js.LICENSE.txt": "https://vthub.github.io/webauthn-debugger/static/js/2.f825dfee.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8b5c354c.js",
-    "static/js/2.e4821a0d.chunk.js",
+    "static/js/runtime-main.b58887f7.js",
+    "static/js/2.f825dfee.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.909b6f7e.chunk.js"
+    "static/js/main.b4329cc2.chunk.js"
   ]
 }
